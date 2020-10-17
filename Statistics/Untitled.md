@@ -189,3 +189,59 @@ graph TD
 
 > Nominal: name categories without implying order
 
+#### Ordinal Scale of Measurement
+
+- Data exhibits properties of nominal data and the order or rank
+  of data is meaningful, the scale of measurement is considered
+  a **ordinal** scale.  
+- Each customer who visits a restaurant provides a service
+  rating of excellent, good, or poor.  
+  - The data obtained are the labels|excellent, good, or
+    poor|the data have the properties of nominal data.  
+  - In addition, the data can be ranked, or ordered, with respect to
+    the service quality  
+
+> Ordinal { name categories that can be ordered  
+
+#### Interval scale of measurement  
+
+- If the data have all the properties of ordinal data and the
+  interval between values is expressed in terms of a fixed unit of
+  measure, then the scale of measurement is **interval** scale.  
+- Interval data are always numeric. Can find out difference
+  between any two values.  
+- Ratios of values have no meaning here because the value of
+  zero is arbitrary  
+
+> Interval: Numerical values that can be added/subtracted (no absolute zero)  
+
+- Example: **temperature**
+
+  - Suppose the response to a question on how hot the
+    comfortable and uncomfortable, then the temperature
+    variable is nominal.
+  - Suppose the answer to measuring the temperature of a liquid is cold, warm, hot - the variable is ordinal.
+  - Example: Consider a AC room where temperature is
+    20°C and the temperature outside the room is 40°C.
+    correct to say that the difference in temperature is 20
+    is incorrect to say that the outdoors is twice as hot as indoors.
+  - Temperature in degrees Fahrenheit or degrees centig
+    interval variable. No absolute zero.
+
+  | Celsius        | Fahrenheit |      |
+  | -------------- | ---------- | ---- |
+  | Freezing point | 0          | 32   |
+  |Boiling Point|100|212|
+
+#### Ratio scale of measurement  
+
+- If the data have all the properties of interval data and the
+  ratio of two values is meaningful, then the scale of
+  measurement is **ratio** scale.  
+- Example: height, weight, age, marks, etc  
+
+> Ratio: numerical values that can be added, subtracted,  multiplied or divided (makes ratio comparisons possible)  
+
+#### Summery
+
+![](D:\Notes\IItM notes\images\summery.png)
