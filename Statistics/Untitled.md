@@ -1,3 +1,5 @@
+# Year 01 Week 01
+
 ## Introduction and types of Data - Basic definitions
 
 ### What is Statistics?  
@@ -8,18 +10,18 @@
 
 1. **Description**  
 
-   - **Definition**: The part of statistics concerned with the description and summarization of data is called *descriptive statistics*.  
+  **Definition**: The part of statistics concerned with the description and summarization of data is called *descriptive statistics*.  
 
-    > Descriptive statistics can be performed either on a sample or a population.
+   > Descriptive statistics can be performed either on a sample or a population.
 
 2. **Inference **
 
-   - **Definition**: The part of statistics concerned with the drawing of conclusions from data is called inferential statistics.  To be able to conclude the data, we must take  into account the <u>possibility of chance</u>- introduction to  *probability*
+   **Definition**: The part of statistics concerned with the drawing of conclusions from data is called inferential statistics.  To be able to conclude the data, we must take  into account the <u>possibility of chance</u>- introduction to  *probability*
 
 - Examples
 
   - Suppose we are interested in knowing  
-    - The percentage of all students in India who have passed their  Class 12 examS and study engineering.  
+    - The percentage of  all students in India who have passed their  Class 12 examS and study engineering.  
     - The prices of all houses in Tamil Nadu.  
     - The total sales of all cars in India in the year 2019. 
     - The age distribution of people who visit a city Mall in a  particular month.  
@@ -43,7 +45,7 @@
 ### What is data?
 
 - To learn something, we need to collect data. 
-- **Definition**DS
+- **Definition**
   - Data are the facts and figures collected, analysed, and summarized for presentation and interpretation. 
     - Statistics relies on data, information that is around us.
 
@@ -111,7 +113,7 @@ graph TD
     A[data] --> B[categorical]
     A --> D[Numerical]
     B--> E[Nominal]
-    B--> F[Orginal]
+    B--> F[Ordinal]
     D--> G[Continous]
     D--> H[Discrete]
 
@@ -121,7 +123,7 @@ graph TD
 
 > - Also called qualitive variables 
 > - identify group membership 
-> - Eg Gender, School Board, Blood Group, Role, Jersey no. 
+> - Eg Gender, School Board, Blood Group, Role, Jersey no. day and date, qualification of a candidate sitting for a job.
 
 **Categorical variable**s: Variables which should not be treated like numbers (as in mathematics), and whose values come from a list of possibilities. 
 
@@ -140,4 +142,50 @@ graph TD
 - **For example**, age and weight would be considered numerical variables, while phone number and ZIP code would not be considered numerical variables. There are 2 types of numerical variables: 
   - **Continuous variable**: A numerical variable that can take values on a continuous scale (e.g. age, weight). 
   - **Discrete** **variable**: A numerical variable that only takes on whole numbers (e.g. number of visits).
+
+> Q. What kind of variable is latitude?
+>
+> a: Numerical, Continuous
+>
+> r:  Continuous numerical data take any value within an allowable range, whereby the range can be finite or infinite. Even though <u>Latitudes are in a finite range, they can have any value, with any level of specificity (or decimal places). So, latitudes, should be Continuous Numerical data.</u>
+>
+> Q. Number of days a group of students take to finish a school project is a:
+>
+> a: Quantitative and Discrete variable
+>
+> r:  For a particular group of students its a finite accurate value.
+>
+> Q. Suppose one is interested in calculating the weight of a bag (in kg) before leaving for the airport. What kind of variable is the weight of the bag?
+>
+> a: Quantitative and continuous
+>
+> r:
+
+#### Measurement units
+
+- Scale that defines the meaning of numerical data, such as weights measured in kilograms. prices in rupees, heights in centimetres. etc. 
+  - The data that make up a numerical variable in a data table must share a common unit. 
+
+### Cross- sectional and time-series data
+
+- **Time series**- data  recorded over time
+- **Timeplot** - graph of a time series showing values in chronological order
+- **Cross-sectional **- data observed at the same time
+
+## Introduction and types of Data - Scales of measurement
+
+### Scales of measurements
+
+- Data collection requires one of the scales of measurement: nominal ordinal, interval, or ratio.
+
+#### Nominal scale of measurement
+
+- When the data for a variable consists of labels or names used to identify the characteristics of an observation, the scale of measurement is considered  a **nominal** scale.
+  - **Eg**: Name, Board, Gender, Blood group etc.
+- Sometimes nominal variables might be numerically coded
+  - **Eg** : We might code Men as 1 and Women as 2. Or Code Men as 3 and Women as 1. Both codes are valid.
+
+- There is no ordering in variable.
+
+> Nominal: name categories without implying order
 
