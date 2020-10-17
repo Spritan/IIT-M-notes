@@ -244,4 +244,4 @@ graph TD
 
 #### Summery
 
-![](D:\Notes\IItM notes\IIT-M-notes\images\summery.png)
+![](D:..\images\summery.png)
