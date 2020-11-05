@@ -180,7 +180,6 @@ graph TD
 **Categorical variable**s: Variables which should not be treated like numbers (as in mathematics), and whose values come from a list of possibilities. 
 
 - **Nominal variable:** A categorical variable where the categories do not have a natural ordering (e.g. gender, ethnicity, country). 
-- **Ordinal variable**: A categorical variable where the categories have a natural ordering (e.g. age group, income level, educational status).
 
 > ##### **Nominal Variable Classification Based on Numeric Property**
 >
@@ -190,9 +189,15 @@ graph TD
 >
 > ##### **Characteristics of Nominal Variable****
 >
-> - The responses to a nominal variable can be divided into two or more categories. For example, gender is a nominal variable that can take responses male/female, which are the categories the nominal variable is divided into.
-> - A nominal variable is qualitative, which means numbers are used here only to categorize or identify objects. For example, the number at the back of a player's jersey is used to identify the position he/she is playing.
+> - The responses to a nominal variable can be divided into two or more categories. 
+>   - For example, 
+>     - gender is a nominal variable that can take responses male/female, which are the categories the nominal variable is divided into.
+> - A nominal variable is qualitative, which means numbers are used here only to categorize or identify objects. 
+>   - For example, 
+>     - the number at the back of a player's jersey is used to identify the position he/she is playing.
 > - They can also take quantitative values. However, these quantitative values do not have numeric properties. That is, arithmetic operations cannot be performed on them.
+
+- **Ordinal variable**: A categorical variable where the categories have a natural ordering (e.g. age group, income level, educational status).
 
 #### Numerical data
 
