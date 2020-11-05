@@ -1,22 +1,24 @@
 # Year 01 Week 01
 
-## Introduction and types of Data - Basic definitions
+## L 1.1 Introduction and types of Data - Basic definitions
 
 ### What is Statistics?  
 
-  - **Definition**: Statistics is the art of learning from data. It is concerned with the collection of data, their subsequent description, and their analysis,  which often leads to the **drawing of conclusions**. 
+  - **Definition**:* Statistics is the art of learning from data*. It is concerned with the collection of data, their subsequent description, and their analysis,  which often leads to the **drawing of conclusions**. 
 
  ### Major branches of statistics
 
 1. **Description**  
 
-  **Definition**: The part of statistics concerned with the description and summarization of data is called *descriptive statistics*.  
+  **Definition**: The part of statistics concerned with the **description** and **summarization** of data is called *descriptive statistics*.  
 
    > Descriptive statistics can be performed either on a sample or a population.
 
 2. **Inference **
 
-   **Definition**: The part of statistics concerned with the drawing of conclusions from data is called inferential statistics.  To be able to conclude the data, we must take  into account the <u>possibility of chance</u>- introduction to  *probability*
+   **Definition**: The part of statistics concerned with the **drawing of conclusions** from data is called inferential statistics.  
+   
+   > To be able to conclude the data, we must take  into account the **<u>possibility of chance</u>**- introduction to  *probability*
 
 - Examples
 
@@ -31,35 +33,46 @@
 - The total collection of all the elements that we are interested in is called a **population**.
 - A subgroup of the population that will be studied in detail is called a **sample**. 
 
+> Population is the entire group, while sample is a subset of the population which is used to describe the parameters of the population
+
 ### Purpose of Statistical analysis
 
 - If the purpose of the analysis is to examine and explore information for its own intrinsic interest only, the study is **descriptive**.
+
+> - general information directly obtained from the dataset given.
+> - A descriptive study may be performed either on a sample or on a population.  
+
 - If the information is obtained from a sample of a population and the purpose of the study is to use that information to conclude the population, the study is **inferential**. 
 
-## Introduction and types of Data - Understanding data
+> - When an inference is made about the population, based on information obtained from the sample, does the study become inferential.  
+
+## L 1.2 Introduction and types of Data - Understanding data
 
 - **Data** is information that is all around us, whether we are formally doing statistical analysis or not; all of us are either creating data or contributing towards the collection of data or we are collecting data ourselves.
 
 ### What is data?
 
 - To learn something, we need to collect data. 
-- **Definition**
+
+  **Definition**
+
   - Data are the facts and figures collected, analysed, and summarized for presentation and interpretation. 
-    - Statistics relies on data, information that is around us.
+
+    > Statistics relies on data, information that is around us.
 
 ### Why do we collect data?
 
 - Interested knowing in the characteristics of some group or groups of people, places, things, or events. 
-- Example: TO know about temperatures in a particular month in Chennai, India. 
-- Example: TO know about the marks obtained by students in their Class 12. 
+  - Example: TO know about temperatures in a particular month in Chennai, India. 
+  - Example: TO know about the marks obtained by students in their Class 12. 
 - To know how many people like a new song/product/video- collected through comments. 
 
 ### Data Collection
 
-- Data available: published data. eg, data.gov .in
-- Data not available: need to collect, generate data.
+- **Data available**: published data. eg, data.gov.in
+- **Data not available**: need to collect, generate data.
 
-> We assume data is available and our objective is to do a statistical analysis of available data
+> We assume data is available and our objective is to do a statistical analysis of available data.
 
 ### Unstructured and structured data
 
@@ -71,6 +84,9 @@
 
 - A structured collection of data.
 - it  is a collection of values-could be numbers, names, roll numbers.
+- https://docs.google.com/spreadsheets/d/15nJvZ-xBZDGb0oii-NCvSIY4fETotXcJdm5pV1Fq2aI/edit?usp=sharing  
+- https://docs.google.com/spreadsheets/d/1qZWmXsIpFx10srpFcmj9DPA961UMbTXkCiUr_SxBYq4/edit?usp=sharing  
+- https://docs.google.com/spreadsheets/d/1lrmhe-E0A2LWpTB9cBK9dm-sL2SPVXYZl0MJHI6vqhM/edit?usp=sharing  
 
 ### Variables and case
 
@@ -81,17 +97,19 @@
 | C     | 12        | 80    |
 | d     | 12        | 68    |
 
-- **Case** ( observation): A unit from which data are collected
+- **Case** ( observation): A unit from which data are collected 
 
 - **Variable**: 
-
-  - **Intuitive**: A variable is that "varies" 
+- **Intuitive**: A variable is that "varies" 
   - **Formally**: A characteristic or attribute that varies across all  units.  
-
+  
 - In our school data set: 
 
   - **Case**: each student 
   - **Variable**: Name. marks obtained. Board etc. 
+
+
+> Non availability on data does not mean 0.
 
 - Rows represent cases: for each case. same attribute is recorded 
 
@@ -102,7 +120,43 @@
   > - Each variable must have its own column
   > - Each observation must have its own row.
 
-## Introduction and Types of Data - Classification of data
+> - *<u>**For each variable the same type of value for each case is recorded.**</u>*
+> - *<u>**But, not for each case the same type of value for each variable is recorded.**</u>*
+
+### Question
+
+>Q1. Which of the following is(are) example(s) of unstructured data?
+>
+>-  Web pages
+>- Video files
+>- Reports
+>- Image files
+>- Phone number
+>- Email address
+>
+>**Ans**:
+>
+>> Web pages
+>>
+>> Video files
+>>
+>> Image files
+>
+>Q2. The values of temperature and relative humidity of a room are measured for 24 hours, starting at 9 AM, at time interval of 30 minutes [Table 1.2.1]. What are the case(s) and variable(s) for this data?
+>
+>![](D:..\images\yable.png)
+>
+>- Temperature is the case; relative humidity and time are the variables
+>- Temperature is the case; relative humidity is the variable
+>- Time is the case; temperature and relative humidity are the variables
+>- Relative humidity is the case; temperature is the variable
+>- 9 AM, 9:30 AM, 10 AM are cases; time, temperature, and relative humidity are variables.
+>
+>**Ans**:
+>
+>> 9 AM, 9:30 AM, 10 AM are cases; time, temperature, and relative humidity are variables.
+
+## L 1.3 Introduction and Types of Data - Classification of data
 
 ### Categorical and numerical
 
@@ -120,13 +174,25 @@ graph TD
 #### Categorical data
 
 > - Also called qualitive variables 
-> - identify group membership 
+> - It identifies group membership 
 > - Eg Gender, School Board, Blood Group, Role, Jersey no. day and date, qualification of a candidate sitting for a job.
 
 **Categorical variable**s: Variables which should not be treated like numbers (as in mathematics), and whose values come from a list of possibilities. 
 
 - **Nominal variable:** A categorical variable where the categories do not have a natural ordering (e.g. gender, ethnicity, country). 
 - **Ordinal variable**: A categorical variable where the categories have a natural ordering (e.g. age group, income level, educational status).
+
+> ##### **Nominal Variable Classification Based on Numeric Property**
+>
+> Nominal variables are sometimes numeric but do not possess numerical characteristics. Some of thee numeric nominal variables are; **phone numbers, student numbers,** etc.
+>
+> Therefore, a nominal variable can be classified as either numeric or not.
+>
+> ##### **Characteristics of Nominal Variable****
+>
+> - The responses to a nominal variable can be divided into two or more categories. For example, gender is a nominal variable that can take responses male/female, which are the categories the nominal variable is divided into.
+> - A nominal variable is qualitative, which means numbers are used here only to categorize or identify objects. For example, the number at the back of a player's jersey is used to identify the position he/she is playing.
+> - They can also take quantitative values. However, these quantitative values do not have numeric properties. That is, arithmetic operations cannot be performed on them.
 
 #### Numerical data
 
